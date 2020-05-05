@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Simulazione Gmail</title>
+  </head>
+      <!-- header per logo, segue main con due macro sezioni 1 per search bar e mail non lette 1 per mail,chiude footer -->
+  <body>
+    <!-- logo e nome servizio -->
+    <header>
+      <img id="logo-gmail" src="img/gmail.png" alt="logo Gmail">
+      <span class="txt-bianco-25px">Gmail</span>
+    </header>
+
+    <main>
+      <!-- search bar +  mail non lette -->
+      <div class="container-alpha">
+        <div class="">
+          <input type="search" name="" value="">
+          <button type="button" name="button">VAI</button>
+        </div>
+        <div class="txt-bianco-25px container-alpha-figlio">
+          You have <span id="cerchio-arancione">30</span> unread
+        </div>
+      </div>
+
+      <!-- sezione mail   -->
+      <div class="container-beta">
+        <div class="mail-lette">
+          <input type="checkbox" name="" value="">
+          <span class="strong-text">&starf;Oggetto della mail </span>
+          <span class="grey-text">- testo della mail...</span>
+        </div>
+        <div class="mail-non-lette">
+          <input type="checkbox" name="" value="">
+          <span class="strong-text">&starf;Oggetto della mail </span>
+          <span class="grey-text">- testo della mail...</span>
+        </div>
+        <div class="mail-lette">
+          <input type="checkbox" name="" value="">
+          <span class="strong-text">&starf;Oggetto della mail </span>
+          <span class="grey-text">- testo della mail...</span>
+        </div>
+        <div class="mail-lette">
+          <input type="checkbox" name="" value="">
+          <span class="strong-text">&starf;Oggetto della mail </span>
+          <span class="grey-text">- testo della mail...</span>
+        </div>
+      </div>
+    </main>
+    <!-- powered by -->
+    <footer>
+      <div class="container-charlie">
+        <span class="txt-bianco-25px strong-text">GMail</span>
+        <span class="white-italica strong-text">powered by Luca</span>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,78 @@
+
+body {
+  background-image: url(../img/temasfondo.jpg);
+  width: 80%;
+  margin: 0 auto;
+}
+/* css header */
+
+header{
+  border-bottom: 2px solid white;
+}
+
+#logo-gmail{
+  width: 100px;
+  vertical-align: middle;
+}
+
+.txt-bianco-25px{
+  color: white;
+  font-size: 25px;
+}
+
+/* css main search bar + mail non lette */
+.container-alpha{
+  margin-top: 10px;
+  border-bottom: 2px solid white;
+}
+
+#cerchio-arancione {
+  background-color: orange;
+  border-radius: 50%;
+  display:inline-block;
+  height:50px;
+  width: 50px;
+  text-align: center;
+  box-sizing: border-box;
+  padding-top: 10px;
+}
+
+.container-alpha-figlio {
+margin-top: 20px;
+margin-bottom: 20px;
+}
+/* css sezione mail */
+.container-beta {
+  border-bottom: 2px solid white;
+  margin-top: 10px;
+  padding-bottom: 10px;
+}
+
+.mail-lette {
+  border: 1px solid black;
+  background-color: lightgrey;
+}
+
+.mail-non-lette {
+  border: 1px solid black;
+  background-color: white;
+}
+
+.strong-text {
+  font-weight: bold;
+}
+
+.grey-text {
+  color: grey;
+}
+
+/* css footer */
+.container-charlie {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.white-italica {
+  color: white;
+  font-style: italic;
+}
